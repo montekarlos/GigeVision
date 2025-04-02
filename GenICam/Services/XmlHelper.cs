@@ -430,6 +430,10 @@ namespace GenICam
                                         pMax = register.PMax;
                                     }
                                 }
+                                else if (pNode.Name == "IntReg")
+                                {
+                                    pValue = await GetRegister(pNode);
+                                }
                             }
 
                             break;
@@ -484,6 +488,10 @@ namespace GenICam
                             {
                                 pValue = register.PValue;   
                             }
+                        }
+                        else if (pNode.Name == "IntReg")
+                        {
+                            pValue = await GetRegister(pNode);
                         }
                     }
                 }
@@ -559,6 +567,10 @@ namespace GenICam
                             {
                                 pValue = register.PValue;
                             }
+                        }
+                        else if (pNode.Name == "IntReg")
+                        {
+                            pValue = await GetRegister(pNode);
                         }
                     }
                 }
@@ -748,6 +760,10 @@ namespace GenICam
                         pValue = register.PValue;
                     }
                 }
+                else if (pNode.Name == "IntReg" || pNode.Name == "StructEntry")
+                {
+                    pValue = await GetRegister(pNode);
+                }
             }
 
             return pValue;
@@ -788,6 +804,10 @@ namespace GenICam
                         {
                             pValue = register.PValue;   
                         }
+                    }
+                    else if (pNode.Name == "IntReg")
+                    {
+                        pValue = await GetRegister(pNode);
                     }
                 }
 
@@ -996,6 +1016,10 @@ namespace GenICam
                                     {
                                         pValue = register.PValue;   
                                     }
+                                }
+                                else if (pNode.Name == "IntReg")
+                                {
+                                    pValue = await GetRegister(pNode);
                                 }
                             }
 
