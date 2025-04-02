@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucidTestApp", "LucidTestApp\LucidTestApp.csproj", "{10A34962-A93B-4196-B21F-C594100A2178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigeVision.Core", "..\GigeVision.Core\GigeVision.Core.csproj", "{9C14C82A-A13B-4C43-8A54-4D21C46DD57E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenICam", "..\GenICam\GenICam.csproj", "{9CC860D9-90EB-4C0E-A0CC-E3368FFA0997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A34962-A93B-4196-B21F-C594100A2178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A34962-A93B-4196-B21F-C594100A2178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A34962-A93B-4196-B21F-C594100A2178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A34962-A93B-4196-B21F-C594100A2178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C14C82A-A13B-4C43-8A54-4D21C46DD57E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9C14C82A-A13B-4C43-8A54-4D21C46DD57E}.Debug|Any CPU.Build.0 = Debug|x64
+		{9C14C82A-A13B-4C43-8A54-4D21C46DD57E}.Release|Any CPU.ActiveCfg = Release|x64
+		{9C14C82A-A13B-4C43-8A54-4D21C46DD57E}.Release|Any CPU.Build.0 = Release|x64
+		{9CC860D9-90EB-4C0E-A0CC-E3368FFA0997}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9CC860D9-90EB-4C0E-A0CC-E3368FFA0997}.Debug|Any CPU.Build.0 = Debug|x64
+		{9CC860D9-90EB-4C0E-A0CC-E3368FFA0997}.Release|Any CPU.ActiveCfg = Release|x64
+		{9CC860D9-90EB-4C0E-A0CC-E3368FFA0997}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
